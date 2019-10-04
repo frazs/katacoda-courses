@@ -4,7 +4,7 @@
 
 master:
   image: "jenkins/jenkins"
-  imageTag: "2.164.1-alpine"
+  imageTag: "2.190-alpine"
   useSecurity: false
   # Master.resources: {requests: {cpu: 50m, memory: 512Mi}, limits: {cpu: 2000m, memory: 2048Mi}}
   serviceType: NodePort
