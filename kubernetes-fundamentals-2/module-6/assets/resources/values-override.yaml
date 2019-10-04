@@ -12,12 +12,12 @@ master:
 
 # List of plugins to be install during Jenkins master start
   installPlugins:
+    - structs:1.20
     - kubernetes:1.18.2
     - workflow-job:2.33
     - workflow-aggregator:2.6
     - credentials-binding:1.19
     - git:3.11.0
-    - structs:1.20
 
 agent:
   enabled: true
